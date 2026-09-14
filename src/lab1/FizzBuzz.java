@@ -5,7 +5,7 @@ package lab1;
  */
 class FizzBuzz {
 
-    public static void main(String[] args) {
+    public static void main() {
 
         int n = 0;
 
@@ -15,7 +15,7 @@ class FizzBuzz {
         }
     }
 
-    private static int doFizzBuzz(int n) {
+    public static int doFizzBuzz(int n) {
         // Find out which numbers divide i.
         boolean divisibleBy3 = n % 3 == 0;
         boolean divisibleBy5 = n % 5 == 0;
